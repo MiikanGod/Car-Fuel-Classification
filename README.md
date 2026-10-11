@@ -35,7 +35,7 @@ Dengan perkembangan teknologi otomotif di tahun 2025, beragam jenis bahan bakar 
 
 ---
 
-## 🚀 Cara Menjalankan Proyek
+## Cara Menjalankan Proyek
 1. *Clone* repositori ini atau unduh file notebook `.ipynb`.
 2. Jalankan di lingkungan **Google Colab** atau **Jupyter Notebook**.
 3. Pastikan file dataset `Cars Datasets 2025.csv` telah diunggah ke direktori kerja Anda.
