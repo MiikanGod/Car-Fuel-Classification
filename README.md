@@ -31,7 +31,7 @@ Pemilihan algoritma disesuaikan dengan 3 aspek utama data:
 
 ---
 
-## Referensi Literatur (2022–2026)
+## Referensi Literatur
 
 1. **Rastogi, A. & Kumar, P. (2026).** *10 Regression & Classification Algorithms in Machine Learning: Which to Use*. ML Research Series.
 2. **Ali, A., et al. (2025).** *Comparative Analysis of Machine Learning Algorithms in Vehicle Performance Datasets*. Journal of Intelligent Computing.
