@@ -1,3 +1,46 @@
+# Car Fuel Analysis & Predictive Modeling
+
+Repositori ini berisi proyek analisis data dan pemodelan Machine Learning yang berfokus pada karakteristik konsumsi bahan bakar kendaraan, evaluasi metrik performa model, serta perbandingan algoritma regresi dan klasifikasi terkini.
+
+---
+
+## 1. Evaluasi Performa Model (Metrik Regresi & Klasifikasi)
+
+Dalam pengembangan model prediktif terkait performa kendaraan, pemahaman metrik evaluasi sangat krusial:
+* **Koefisien Determinasi ($R^2$):** Nilai $R^2$ harus $\le 1$ dan idealnya mendekati angka **1** (misal 0.85 - 0.95). Nilai ini tidak pernah lebih dari 1, dan bisa bernilai negatif jika performa model sangat buruk.
+* **MAE & MSE (Error Metrics):** Tidak harus di bawah angka 1, karena skalanya mengikuti data asli (misalnya liter/kilometer). Prinsip utamanya adalah **mendekati angka 0** untuk meminimalisir kesalahan prediksi.
+
+---
+
+## 2. Faktor Utama Pemilihan Model
+Pemilihan algoritma disesuaikan dengan 3 aspek utama data:
+1. **Jenis Data (*Data Type*):** Menangani variabel numerik kontinu, biner, maupun kategori fitur kendaraan.
+2. **Ukuran Dataset (*Dataset Size*):** Optimalisasi algoritma untuk skala data kecil hingga menengah.
+3. **Linearitas (*Linearity*):** Memetakan hubungan linear vs non-linear antara spesifikasi mesin mobil dan tingkat konsumsi bahan bakar.
+
+---
+
+## 3. Taksonomi Algoritma Terkait Proyek
+
+| Algoritma | Karakteristik & Kegunaan | Skala Dataset | Peruntukan Utama |
+| :--- | :--- | :--- | :--- |
+| **Linear Regression** | Hubungan data berbentuk garis lurus. Sangat cepat dan mudah diinterpretasikan. | Kecil – Menengah | Baseline model untuk estimasi nilai kontinu dasar. |
+| **Ridge & Lasso Regression** | Regresi linear dengan penalti regularisasi untuk mengatasi multikolinearitas fitur mesin. | Kecil – Menengah | Mencegah *overfitting* saat fitur prediktor sangat banyak. |
+| **Random Forest / Ensemble** | Berbasis *decision tree* ganda. Handal menangani hubungan non-linear yang kompleks. | Menengah – Besar | Analisis data tabular otomotif yang tahan terhadap *outlier*. |
+| **Gradient Boosting (XGBoost/CatBoost)** | Algoritma *boosting* sekuensial dengan akurasi tinggi. | Menengah – Besar | Kompetisi / pemodelan performa tingkat lanjut. |
+
+---
+
+## Referensi Literatur (2022–2026)
+
+1. **Rastogi, A. & Kumar, P. (2026).** *10 Regression & Classification Algorithms in Machine Learning: Which to Use*. ML Research Series.
+2. **Ali, A., et al. (2025).** *Comparative Analysis of Machine Learning Algorithms in Vehicle Performance Datasets*. Journal of Intelligent Computing.
+3. **Ginting, A. H., et al. (2025).** *Performance Evaluation of Linear Models vs. Tree-Based Ensembles*. Atlantis Press.
+4. **Joseph, K. (2024).** *Mastering Regression and Classification Workflows: A Practical Guide*. Medium Data Science.
+
+---
+
+
 # Car-Fuel-Classification
 Analisis dan Klasifikasi Jenis Bahan Bakar Mobil Berdasarkan Performa Mesin Tahun 2025 menggunakan Algoritma Random Forest.
 # Analisis dan Klasifikasi Jenis Bahan Bakar Mobil Berdasarkan Performa Mesin Tahun 2025
